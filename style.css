@@ -14,6 +14,8 @@ body {
     display: flex;
     flex-direction: column;
 
+    background-color: rgba(26, 11, 46, 0.8);
+    
     background-image: scr=("space.jpg");
 
     background-blend-mode: overlay;
