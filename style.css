@@ -15,7 +15,6 @@ body {
     flex-direction: column;
 }
 
-background: linear-gradient(rgba(26, 11, 46, 0.7), rgba(26, 11, 46, 0.7)), url('space.jpg');
 
 .navbar {
     display: flex;
