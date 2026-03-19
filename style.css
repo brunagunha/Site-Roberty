@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    background-image: url('space.jpg');
+    background-image: scr=("space.jpg");
 
     background-blend-mode: overlay;
 
