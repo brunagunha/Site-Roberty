@@ -2,29 +2,45 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>The Host</title>
+    <title>The Host - Versão Simples</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">
-            <img src="host.png" alt="Logo">
-            <span>The Host</span>
+        <div class="logo-area">
+            <img src="logo.png" class="logo-img" alt="Logo">
+            <span class="logo-texto">The Host</span>
         </div>
-        <ul>
-            <li><a href="#">Capas</a></li>
-            <li><a href="#">Apps</a></li>
-            <li class="user-icon"></li>
-        </ul>
+        <div class="menu">
+            <a href="#">Capas</a>
+            <a href="#">Apps</a>
+            <div class="user-avatar"></div>
+        </div>
     </nav>
 
-    <main class="container">
-        
-        <div class="coluna-texto">
+    <main class="main-container">
+        <section class="texto">
             <h1>Crie o seu próprio!</h1>
-            <p>Por que se contentar com um celular genérico quando você pode criar um dispositivo que seja completamente seu, em todos os detalhes?</p>
-            <p>No <strong>The Host</strong>, você tem a liberdade de personalizar todo o seu celular de acordo com suas preferências, do design externo às funções internas.</p>
-            <button class="botao">Crie agora o seu</button>
-        </div>
+            <p>Por que se contentar com um celular genérico quando você pode criar um dispositivo que seja completamente seu?</p>
+            <p>No <strong>The Host</strong>, você tem a liberdade de personalizar tudo, do hardware ao software.</p>
+            <button class="btn-principal">Crie agora o seu</button>
+        </section>
+
+        <section class="visual">
+            <img src="cd-image.png" class="cd-img" alt="Modelo CD">
+            <div class="seletor">
+                <span>◀</span>
+                <strong>Modelo 1</strong>
+                <span>▶</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 The Host — Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
