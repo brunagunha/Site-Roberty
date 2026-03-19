@@ -6,13 +6,21 @@
 }
 
 body {
+    margin: 0;
+    padding: 40px 10%;
     font-family: 'Inter', sans-serif;
     color: white;
-    background-color: #1a0b2e;
-    padding: 40px 10%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
+    background-image: url('space.jpg');
+
+    background-blend-mode: overlay;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
